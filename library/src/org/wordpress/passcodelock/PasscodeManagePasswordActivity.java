@@ -5,6 +5,7 @@ import android.support.v4.hardware.fingerprint.FingerprintManagerCompat;
 import android.support.v4.os.CancellationSignal;
 import android.view.View;
 import android.widget.TextView;
+import org.wordpress.passcodelock.R;
 
 public class PasscodeManagePasswordActivity extends AbstractPasscodeKeyboardActivity {
     public static final String  KEY_TYPE = "type";
@@ -34,6 +35,11 @@ public class PasscodeManagePasswordActivity extends AbstractPasscodeKeyboardActi
             View view = findViewById(R.id.image_fingerprint);
             view.setVisibility(View.VISIBLE);
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        // absorb the back button press, forcing the action to complete.
     }
 
     @Override

@@ -149,7 +149,7 @@ public class DefaultAppLock extends AbstractAppLock {
         return encryptedPwd;
     }
 
-    private boolean mustShowUnlockSceen() {
+    protected boolean mustShowUnlockSceen() {
 
         if( isPasswordLocked() == false)
             return false;
@@ -199,7 +199,6 @@ public class DefaultAppLock extends AbstractAppLock {
             Intent i = new Intent(arg0.getApplicationContext(), PasscodeUnlockActivity.class);
             i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             arg0.getApplication().startActivity(i);
-            return;
         }
 
     }
