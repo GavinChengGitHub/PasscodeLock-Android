@@ -5,7 +5,7 @@
     <string name="passcode">PIN</string>
     <string name="passcode_manage">Manage passcode</string>
     <string name="passcode_enter_old_passcode">Enter your old passcode</string>
-    <string name="passcode_re_enter_passcode">Re-enter your passcode</string>
+    <string name="passcode_re_enter_passcode">Re-Enter Passcode</string>
     <string name="passcode_change_passcode">Change passcode</string>
     <string name="passcode_set">Passcode set</string>
     <string name="passcode_wrong_passcode">Wrong passcode, please try again.</string>
@@ -13,7 +13,7 @@
     <string name="passcode_turn_off">Turn passcode off</string>
     <string name="passcode_turn_on">Turn passcode on</string>
 
-    <string name="passcodelock_prompt_message">Enter your PIN</string>
+    <string name="passcodelock_prompt_message">Setup 4 Digit Passcode</string>
     <string name="passcodelock_hint"></string>
     <string name="passcodelock_numpad_0">0</string>
     <string name="passcodelock_numpad_1">1</string>

@@ -17,16 +17,26 @@
         android:paddingLeft="16dp"
         android:paddingRight="16dp">
 
-        <ImageView
-            android:id="@+id/passcode_logo"
-            android:contentDescription="@string/cd_passcodelock_logo"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:paddingBottom="16dp"
-            android:paddingTop="16dp"
-            android:scaleType="centerInside"
-            android:src="@drawable/passcode_logo" >
-        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+            <ImageView
+                android:id="@+id/passcode_logo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/swedish_logo"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="6"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+        </LinearLayout>
 
         <TextView
             android:id="@+id/passcodelock_prompt"
