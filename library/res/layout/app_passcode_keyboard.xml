@@ -39,6 +39,17 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/passcodelogout_prompt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/passcodelogout_prompt_message"
+            android:textAlignment="center"
+            android:textColor="@color/passcodelock_prompt_text_color"
+            android:textSize="18sp"
+            android:visibility="invisible"/>
+
+        <TextView
             android:id="@+id/passcodelock_prompt"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

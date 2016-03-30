@@ -13,7 +13,8 @@
     <string name="passcode_turn_off">Turn passcode off</string>
     <string name="passcode_turn_on">Turn passcode on</string>
 
-    <string name="passcodelock_prompt_message">Setup 4 Digit Passcode</string>
+    <string name="passcodelock_prompt_message">Enter 4 Digit Passcode</string>
+    <string name="passcodelogout_prompt_message">Logout if you forgot passcode</string>
     <string name="passcodelock_hint"></string>
     <string name="passcodelock_numpad_0">0</string>
     <string name="passcodelock_numpad_1">1</string>

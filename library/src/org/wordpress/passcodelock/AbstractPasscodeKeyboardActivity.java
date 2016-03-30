@@ -148,6 +148,10 @@ public abstract class AbstractPasscodeKeyboardActivity extends Activity {
         toast.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 0, 30);
         toast.show();
     }
+
+    protected TextView getLogoutPrompt() {
+        return (TextView) findViewById(R.id.passcodelogout_prompt);
+    }
     
     protected abstract void onPinLockInserted();
     protected abstract FingerprintManagerCompat.AuthenticationCallback getFingerprintCallback();
